@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li {
+    list-style: none;
+}
+
+.container{
+    width: 400px;
+    height: 30vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20%;
+    box-shadow: 10px 13px 29px -1px rgba(224, 151, 151, 0.52);
+    -webkit-box-shadow: 10px 13px 29px -1px rgba(0,0,0,0.52);
+    -moz-box-shadow: 10px 13px 29px -1px rgba(0,0,0,0.52);
+    backdrop-filter: blur(100px);
+    border-radius: 10px;
+
+    background:linear-gradient(135deg, rgba(36, 157, 226, 0.1));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 3px 0 rgba(0, 0, 0, 0.37);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background: url(image/login.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input {
+    width: 80%;
+    height: 5vh;
+}
+
+li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-size: 30px;
+    color: violet;
+}
+
+.sumbit{
+    width: 90px;
+    height: 30px;
+    background-color: rgb(122, 122, 230);
+    border-radius: 5px;
+}
+
+.sumbit:hover{
+    background-color: yellow;
+}

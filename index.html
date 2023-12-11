@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" type="x-icon" href="image/title.png">
+
+    <title>LOG-IN</title>
+</head>
+<body>
+    <section class="container">
+        <div class="box">
+            <h1>Enter a Password</h1>
+            <input type="password" id="password">
+            <button type="submit" class="login" onclick="password()">Log in</button>
+        </div>
+    </section>
+
+    <!-- js script -->
+    <script  type="text/javascript">
+        function password(){
+    const Mypassword = 1989;
+
+    let password =  document.getElementById("password").value;
+    if (Mypassword == password){
+        console.log(password);
+        window.location.href="profile.html";
+    }
+    else if (password == "" || password == null){
+        alert("Input a password / Taylor Swift year");
+    }
+    else if (password != Mypassword){
+        alert("Try again slowly.");
+    }
+}
+
+    </script>
+</body>
+</html>

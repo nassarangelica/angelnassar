@@ -1,0 +1,13 @@
+*{
+    background: url(image/cert.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+}
+
+img{
+    width: 40%;
+    height: 50vh;
+    margin-top: 150px;
+}
